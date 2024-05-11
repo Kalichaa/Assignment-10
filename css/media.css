@@ -1,0 +1,22 @@
+@media (max-width: 1024px) {
+    nav {
+        width: 450px;
+    }
+
+    .header_ul a {
+        width: 200px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .burger-icon {
+        display: block;
+        color: #636060;
+    }
+    
+}
