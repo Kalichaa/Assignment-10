@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
@@ -9,22 +16,37 @@ body {
 
 header {
     padding: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 
 nav {
     width: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .header_ul {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -51,7 +73,16 @@ nav {
 }
 
 
-.main-image h1, p {
+.main-image h1 {
+    text-align: center;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.main-image p {
     text-align: center;
     color: white;
     font-family: "Roboto", sans-serif;
@@ -68,7 +99,151 @@ nav {
 }
 
 
+/* ################################ */
+
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 100px;
+}
+
+.left-side {
+    width: 30%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.left-side p {
+    width: 80%;
+    color: #636060;
+    line-height: 40px;
+    font-size: 30px;
+}
+
+.left-side h3 {
+    color: #636060;
+    font-size: 25px;
+}
+
+.left-side h1 {
+    color: #010101;
+    font-weight: 600;
+    font-size: 40px;
+}
 
 
+/* ############################### */
+
+.right-side {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.right-side div {
+    width: 30%;
+    margin-bottom: 60px;
+}
+
+.main-h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #343232;
+}
+
+.main-p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10px;
+    line-height: 20px;
+    color: ;
+}
+
+.right-side div .first {
+    background-image: url(../images/Rectangle\ 2.svg);
+    height: 195px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 20px;
+
+}
+
+/* ##################### */
+
+.right-side div .second {
+    background-image: url(../images/Rectangle\ 3.svg);
+    height: 195px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 20px;
+}
 
 
+/* ############################## */
+
+.right-side div .third {
+    background-image: url(../images/Rectangle\ 4.svg);
+    height: 195px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+/* ####################### */
+
+.right-side div .forth {
+    background-image: url(../images/Rectangle\ 5.svg);
+    height: 195px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+/* ################################# */
+.right-side div .fifth {
+    background-image: url(../images/Rectangle\ 6.svg);
+    height: 195px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+
+/* ##################################### */
+.right-side div .sixth {
+    background-image: url(../images/Rectangle\ 7.svg);
+    height: 195px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 20px;
+}
